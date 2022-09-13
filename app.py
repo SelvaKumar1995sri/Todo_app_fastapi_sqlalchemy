@@ -16,7 +16,7 @@ app = FastAPI()
 # Dependency
 def get_db():
     db = SessionLocal()
-    try: 
+    try:  
         yield db
     finally:
         db.close()

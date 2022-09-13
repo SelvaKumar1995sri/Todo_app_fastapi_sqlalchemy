@@ -6,4 +6,4 @@ class Todo(Base):
 
     id = Column(Integer, primary_key=True)
     title = Column(String(100))
-    complete = Column(Boolean, default=False)
+    complete = Column(Boolean, default=False) 
